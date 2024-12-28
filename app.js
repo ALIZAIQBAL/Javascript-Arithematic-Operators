@@ -34,7 +34,7 @@ console.log(exponentiation)
 // Bracket open,Division,Multiplication
 // //Addition or Subtraction mein left se jo pahly ayga wo apply hoga.
 
-//Var MEIN NUMBER SIRF START MEIN NHI ASKTA...
+//VAR MEIN NUMBER SIRF START MEIN NHI ASKTA...
 var bod1 = multiplying/subraction+addition //5000/50=100+150=250
 
 
@@ -45,18 +45,40 @@ console.log(bod2)
 console.log(bod3)
 
 
-//_____________UNFAMILIAR OPERATORS________________ used in Javascript
-
+//_____________UNFAMILIAR OPERATORS________________ used in Javascript.
 //increment ky lye use kerty hain ++
+//decrement ky lye use kerty hain --
+
 // post increment/decrement (Baad mein)
 //num++,num--
 //hm jahan per call kerty hain 
-//twe pahly value assign hoti hai phir update hoti hai..
+//twe new variable ko pahly value assign hoti hai phir update hoti hai..
 
-
-// pre increment/decrement
+// pre increment/decrement (First mein)
 //++num,--num
 ////hm jahan per call kerty hain 
 //twe pahly value update hoti hai phir assign hoti hai..
 
+// POST INCREMENT EXAMPLE:
+var piNum=10
+var piNumAfter=piNum++
+console.log(piNum) //11
+console.log(piNumAfter) //10
 
+// POST DECREMENT EXAMPLE:
+var pdNum=10
+var pdNumAfter=pdNum--
+console.log(pdNum) //9
+console.log(pdNumAfter)//10
+
+// PRE INCREMENT EXAMPLE:
+var priNum=10
+var priNumAfter= ++priNum
+console.log(priNum) //11
+console.log(priNumAfter) //11 
+
+// PRE DECREMENT EXAMPLE:
+var prdNum=10
+var prdNumAfter= --prdNum
+console.log(prdNum) //9
+console.log(prdNumAfter) //9
